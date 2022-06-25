@@ -1,0 +1,15 @@
+.badge {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: rgb(208, 93, 45);
+  background: linear-gradient(
+    0deg,
+    rgba(208, 93, 45, 1) 0%,
+    rgba(236, 55, 22, 1) 100%
+  );
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  border-radius: 0px 8px;
+}

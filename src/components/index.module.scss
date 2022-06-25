@@ -1,0 +1,45 @@
+body,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact_app_container {
+  h3 {
+    text-align: center;
+  }
+
+  .loading {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .content {
+    border-bottom: 1px solid #afafaf;
+    border-right: 1px solid #afafaf;
+    border-left: 1px solid #afafaf;
+    background: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .row {
+    border-bottom: 1px dashed #afafaf;
+    margin-right: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  background: #eeeeee;
+  border: 1px solid #afafaf;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  color: #585858;
+  cursor: pointer;
+  text-transform: lowercase;
+
+  &:disabled,
+  &[disabled] {
+    color: #bab9ba;
+    cursor: auto;
+  }
+
+  &.selected {
+    box-shadow: inset 0px 2px 3px rgb(50 50 50 / 25%);
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .counter {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-size: 10px;
+  }
+}

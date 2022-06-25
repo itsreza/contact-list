@@ -1,0 +1,21 @@
+.dialog {
+  width: 500px;
+  height: 250px;
+  background: #eeeeee;
+  box-shadow: inset 0px 0px 12px 6px #00000036;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.close_button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  span {
+    background: transparent;
+    font-size: 30px;
+    color: #aaa9aa;
+  }
+}
